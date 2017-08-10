@@ -13,9 +13,11 @@ First we describe the various modules, thir functionality and links to the docum
 |:---: |-----------|----------------|---------------------|-----------------|
 | *fiona*  | reads and writes shapefiles |
 | *shapely*| provides containers and operations for manipulating vector data (points, lines and polygons)|
-| *gdal*   | 
-| *rasterio* |
-| *rtree* |
-| *pyproj* |
-| *rasterstats* |
-| *geopandas* |
+| *gdal*   | python bindings for GDAL library |
+| *rasterio* | manipulates rasters |
+| *rtree* | spatial indexing to speed up large intersection operations |
+| *pyproj* | cartographic transformations |
+| *rasterstats* | summarizes raster data (e.g. zonal statistics) |
+| *descartes* |   |    |    |  (https://bitbucket.org/sgillies/descartes/)  |
+| *geopandas* | Integrates [pandas](http://pandas.pydata.org/) to allow spatial operations on geometric types | 
+
