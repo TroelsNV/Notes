@@ -1,5 +1,3 @@
-# File still under construction!
-
 ## Installing various GIS modules and their subsequent use
 Much of this documentation is built on the documentation made avaliable by [aleaf](https://github.com/aleaf). Thanks for sharing it  Andy!
 
