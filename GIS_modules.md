@@ -19,5 +19,5 @@ First we describe the various modules, thir functionality and links to the docum
 | *pyproj* | cartographic transformations | | http://www.lfd.uci.edu/~gohlke/pythonlibs/#pyproj |
 | *rasterstats* | summarizes raster data (e.g. zonal statistics) | gdal, rasterio, fiona, shapely and numpy | install using 'pip' |
 | *descartes* | plotting functionality  |    |    |  https://bitbucket.org/sgillies/descartes/  |  |
-| *geopandas* | Integrates [pandas](http://pandas.pydata.org/) to allow spatial operations on geometric types | install using 'pip' (http://geopandas.org/install.html) |
+| *geopandas* | Integrates [pandas](http://pandas.pydata.org/) to allow spatial operations on geometric types | numpy, pandas, shapely, fiona, six, pyproj | install using 'pip' (http://geopandas.org/install.html) |
 
