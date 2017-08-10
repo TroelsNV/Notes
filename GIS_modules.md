@@ -24,3 +24,5 @@ First we describe the various modules, thir functionality and links to the docum
 Most of the packages above can be installed using wheel files downloaded at the provided links. Once downloaded they can be installed using pip (provided with anaconda). using the following command:
 
 >pip install <name of wheel file e.g. **GDAL‑1.11.3‑cp27‑none‑win_amd64.whl** for the GDAL 64bit package>
+
+Note: GDAL must be installed prior to installing fiona and rasterio, and gdal, rasterio, fiona and shapely must be installed prior to installing rasterstats. After these other packages are installed, rasterstats can simply be installed from PyPl using pip.
