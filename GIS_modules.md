@@ -11,13 +11,13 @@ First we describe the various modules, thir functionality and links to the docum
 
 |  Module  |  Purpose  |  Dependencies  |  Unofficial binary  |  Documentation  |
 |:---: |-----------|----------------|---------------------|-----------------|
-| *fiona*  | reads and writes shapefiles | gdal, six, cligj | http://www.lfd.uci.edu/~gohlke/pythonlibs/#fiona |
-| *shapely*| provides containers and operations for manipulating vector data (points, lines and polygons)|  |  	http://www.lfd.uci.edu/~gohlke/pythonlibs/#shapely |
-| *gdal*   | python bindings for GDAL library | numpy | http://www.lfd.uci.edu/~gohlke/pythonlibs/#gdal |
-| *rasterio* | manipulates rasters | gdal, affine, cligj (and click), enum34, numpy | http://www.lfd.uci.edu/~gohlke/pythonlibs/#rasterio |
-| *rtree* | spatial indexing to speed up large intersection operations |  | http://www.lfd.uci.edu/~gohlke/pythonlibs/#rtree |
-| *pyproj* | cartographic transformations | | http://www.lfd.uci.edu/~gohlke/pythonlibs/#pyproj |
-| *rasterstats* | summarizes raster data (e.g. zonal statistics) | gdal, rasterio, fiona, shapely and numpy | install using 'pip' |
+| *fiona*  | reads and writes shapefiles | gdal, six, cligj | http://www.lfd.uci.edu/~gohlke/pythonlibs/#fiona | http://toblerity.org/fiona/ |
+| *shapely*| provides containers and operations for manipulating vector data (points, lines and polygons)|  |  	http://www.lfd.uci.edu/~gohlke/pythonlibs/#shapely | https://pypi.python.org/pypi/Shapely |
+| *gdal*   | python bindings for GDAL library | numpy | http://www.lfd.uci.edu/~gohlke/pythonlibs/#gdal | https://pypi.python.org/pypi/GDAL and http://www.gdal.org/ | 
+| *rasterio* | manipulates rasters | gdal, affine, cligj (and click), enum34, numpy | http://www.lfd.uci.edu/~gohlke/pythonlibs/#rasterio | https://mapbox.github.io/rasterio/ |
+| *rtree* | spatial indexing to speed up large intersection operations |  | http://www.lfd.uci.edu/~gohlke/pythonlibs/#rtree | http://toblerity.org/rtree/ |
+| *pyproj* | cartographic transformations | | http://www.lfd.uci.edu/~gohlke/pythonlibs/#pyproj | https://github.com/jswhit/pyproj |
+| *rasterstats* | summarizes raster data (e.g. zonal statistics) | gdal, rasterio, fiona, shapely and numpy | install using 'pip' | http://pythonhosted.org/rasterstats/ |
 | *descartes* | plotting functionality  |    |    |  https://bitbucket.org/sgillies/descartes/  |  |
-| *geopandas* | Integrates [pandas](http://pandas.pydata.org/) to allow spatial operations on geometric types | numpy, pandas, shapely, fiona, six, pyproj | install using 'pip' (http://geopandas.org/install.html) |
+| *geopandas* | Integrates [pandas](http://pandas.pydata.org/) to allow spatial operations on geometric types | numpy, pandas, shapely, fiona, six, pyproj | install using 'pip' (http://geopandas.org/install.html) | http://geopandas.org/index.html |
 
