@@ -10,7 +10,7 @@ Here it will be documented how various packages for managing, reading and writin
 First we describe the various modules, thir functionality and links to the documentation.
 
 |  Module  |  Purpose  |  Dependencies  |  Unofficial binary  |  Documentation  |
-|----------|-----------|----------------|---------------------|-----------------|
+|:---: |-----------|----------------|---------------------|-----------------|
 | *fiona*  | reads and writes shapefiles |
 | *shapely*| provides containers and operations for manipulating vector data (points, lines and polygons)|
 | *gdal*   | 
