@@ -21,3 +21,6 @@ First we describe the various modules, thir functionality and links to the docum
 | *descartes* | plotting functionality  |    |    |  https://bitbucket.org/sgillies/descartes/  |  |
 | *geopandas* | Integrates [pandas](http://pandas.pydata.org/) to allow spatial operations on geometric types | numpy, pandas, shapely, fiona, six, pyproj | install using 'pip' (http://geopandas.org/install.html) | http://geopandas.org/index.html |
 
+Most of the packages above can be installed using wheel files downloaded at the provided links. Once downloaded they can be installed using pip (provided with anaconda). using the following command:
+
+>pip install Fiona-1.6.2-cp27-none-win_amd64.whl
