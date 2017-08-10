@@ -11,13 +11,13 @@ First we describe the various modules, thir functionality and links to the docum
 
 |  Module  |  Purpose  |  Dependencies  |  Unofficial binary  |  Documentation  |
 |:---: |-----------|----------------|---------------------|-----------------|
-| *fiona*  | reads and writes shapefiles |
-| *shapely*| provides containers and operations for manipulating vector data (points, lines and polygons)|
-| *gdal*   | python bindings for GDAL library |
-| *rasterio* | manipulates rasters |
-| *rtree* | spatial indexing to speed up large intersection operations |
+| *fiona*  | reads and writes shapefiles | gdal, six, cligj |
+| *shapely*| provides containers and operations for manipulating vector data (points, lines and polygons)|  |
+| *gdal*   | python bindings for GDAL library | numpy |
+| *rasterio* | manipulates rasters | gdal, affine, cligj (and click), enum34, numpy |
+| *rtree* | spatial indexing to speed up large intersection operations |  |
 | *pyproj* | cartographic transformations |
-| *rasterstats* | summarizes raster data (e.g. zonal statistics) |
-| *descartes* |   |    |    |  (https://bitbucket.org/sgillies/descartes/)  |
+| *rasterstats* | summarizes raster data (e.g. zonal statistics) | gdal, rasterio, fiona, shapely and numpy |
+| *descartes* | plotting functionality  |    |    |  (https://bitbucket.org/sgillies/descartes/)  |
 | *geopandas* | Integrates [pandas](http://pandas.pydata.org/) to allow spatial operations on geometric types | 
 
