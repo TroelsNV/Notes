@@ -23,4 +23,4 @@ First we describe the various modules, thir functionality and links to the docum
 
 Most of the packages above can be installed using wheel files downloaded at the provided links. Once downloaded they can be installed using pip (provided with anaconda). using the following command:
 
->pip install Fiona-1.6.2-cp27-none-win_amd64.whl
+>pip install <name of wheel file e.g. **GDAL‑1.11.3‑cp27‑none‑win_amd64.whl** for the GDAL 64bit package>
