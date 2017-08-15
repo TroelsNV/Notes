@@ -16,7 +16,7 @@ First the various modules are described, their functionality and links to the do
 | *rasterstats* | summarizes raster data (e.g. zonal statistics) | gdal, rasterio, fiona, shapely and numpy | install using 'pip' | http://pythonhosted.org/rasterstats/ |
 | *rtree* | spatial indexing to speed up large intersection operations |  | http://www.lfd.uci.edu/~gohlke/pythonlibs/#rtree | http://toblerity.org/rtree/ |
 | *pyproj* | cartographic transformations | | http://www.lfd.uci.edu/~gohlke/pythonlibs/#pyproj | https://github.com/jswhit/pyproj |
-| *descartes* | plotting functionality  |    |    |  https://bitbucket.org/sgillies/descartes/  |  |
+| *descartes* | plotting functionality  |    |  instal lusing 'pip'  |  https://bitbucket.org/sgillies/descartes/  |  |
 | *geopandas* | Integrates [pandas](http://pandas.pydata.org/) to allow spatial operations on geometric types | numpy, pandas, shapely, fiona, six, pyproj | install using 'pip' (http://geopandas.org/install.html) | http://geopandas.org/index.html |
 | *pyshp* | pure python for reading and writing shape files | | install using 'pip' | https://pypi.python.org/pypi/pyshp | 
 
