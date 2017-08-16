@@ -19,7 +19,7 @@ First the various modules are described, their functionality and links to the do
 | *descartes* | plotting functionality  |    |  instal lusing 'pip'  |  https://bitbucket.org/sgillies/descartes/  |  |
 | *geopandas* | Integrates [pandas](http://pandas.pydata.org/) to allow spatial operations on geometric types | numpy, pandas, shapely, fiona, six, pyproj | install using 'pip' (http://geopandas.org/install.html) | http://geopandas.org/index.html |
 | *pyshp* | pure python for reading and writing shape files | | install using 'pip' | https://pypi.python.org/pypi/pyshp | 
-| *cartopy* | | | http://www.lfd.uci.edu/~gohlke/pythonlibs/#cartopy | http://scitools.org.uk/cartopy/docs/latest/index.html | 
+| *cartopy* | Cartopy is a Python package designed to make drawing maps for data analysis and visualisation as easy as possible. | | http://www.lfd.uci.edu/~gohlke/pythonlibs/#cartopy | http://scitools.org.uk/cartopy/docs/latest/index.html | 
 
 Most of the packages above can be installed using wheel files downloaded at the provided links. Once downloaded they can be installed using pip (provided with anaconda). using the following command:
 
